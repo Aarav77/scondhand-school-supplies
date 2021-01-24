@@ -92,7 +92,7 @@ export default class ReceiverDetailsScreen extends Component{
         <View style={styles.container}>
           <View style={{flex:0.1}}>
             <Header
-              leftComponent ={<Icon name='arrow-left' type='feather' color='#696969'  onPress={() => this.props.navigation.goBack()}/>}
+              leftComponent ={<Icon name='arrow-left' type='feather' color='#00FFF9'  onPress={() => this.props.navigation.goBack()}/>}
               centerComponent={{ text:"Donate Books", style: { color: '#90A5A9', fontSize:20,fontWeight:"bold", } }}
               backgroundColor = "#eaf8fe"
             />

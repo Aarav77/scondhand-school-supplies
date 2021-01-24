@@ -49,7 +49,7 @@ export default class NotificationScreen extends Component{
       return (
         <ListItem
           key={index}
-          leftElement={<Icon name="book" type="font-awesome" color ='#696969'/>}
+          leftElement={<Icon name="book" type="font-awesome" color ='#00FFF9'/>}
           title={item.book_name}
           titleStyle={{ color: 'black', fontWeight: 'bold' }}
           subtitle={item.message}

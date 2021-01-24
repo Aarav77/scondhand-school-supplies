@@ -276,7 +276,7 @@ export default class WelcomeScreen extends Component {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#6fc0b8"
+    backgroundColor: "#00FFF9"
   },
   loginBox: {
     width: "80%",

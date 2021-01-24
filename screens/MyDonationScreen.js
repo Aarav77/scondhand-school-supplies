@@ -99,7 +99,7 @@ export default class MyDonationScreen extends Component {
             style={[
               styles.button,
               {
-                backgroundColor : item.request_status === "Book Sent" ? "green" : "#ff5722"
+                backgroundColor : item.request_status === "Book Sent" ? "green" : "#00FFF9"
               }
             ]}
             onPress = {()=>{
