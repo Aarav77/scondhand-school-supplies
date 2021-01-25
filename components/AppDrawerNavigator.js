@@ -5,7 +5,7 @@ import CustomSideBarMenu  from './CustomSideBarMenu';
 import MyDonationScreen from '../screens/MyDonationScreen';
 import NotificationScreen from '../screens/NotificationScreen';
 import SettingScreen from '../screens/SettingScreen';
-import MyReceivedBooksScreen from '../screens/MyRecievedBooksScreen';
+import MyReceivedSuppliesScreen from '../screens/MyRecievedSuppliesScreen';
 
 import {Icon} from 'react-native-elements';
 
@@ -30,11 +30,11 @@ export const AppDrawerNavigator = createDrawerNavigator({
       drawerLabel : "Notifications"
     }
   },
-  MyReceivedBooks :{
-    screen: MyReceivedBooksScreen,
+  MyReceivedSupplies :{
+    screen: MyReceivedSuppliesScreen,
     navigationOptions:{
       drawerIcon : <Icon name="gift" type ="font-awesome" />,
-      drawerLabel : "My Received Books"
+      drawerLabel : "My Received Supplies"
     }
   },
   Setting : {

@@ -1,15 +1,15 @@
 import React from 'react';
 import { createStackNavigator } from 'react-navigation-stack';
 
-import BookDonateScreen from '../screens/BookDonateScreen';
+import DonateScreen from '../screens/DonateScreen';
 import ReceiverDetailsScreen  from '../screens/ReceiverDetailsScreen';
 
 
 
 
 export const AppStackNavigator = createStackNavigator({
-  BookDonateList : {
-    screen : BookDonateScreen,
+  DonateList : {
+    screen : DonateScreen,
     navigationOptions:{
       headerShown : false
     }
@@ -23,6 +23,6 @@ export const AppStackNavigator = createStackNavigator({
 
 },
   {
-    initialRouteName: 'BookDonateList'
+    initialRouteName: 'DonateList'
   }
 );
